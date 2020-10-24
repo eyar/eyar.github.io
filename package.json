@@ -50,7 +50,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "yarn deploy"
+      "pre-push": "gatsby build && gh-pages -d public"
     }
   }
 }
