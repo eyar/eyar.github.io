@@ -16,7 +16,7 @@ body{
 @media screen and (max-width: 1024px) {
     body article{
         padding: 0 10px;
-        dt, dt + dd{
+        dt, dt + dd, h2{
             text-align: center;
         }
         dd{
