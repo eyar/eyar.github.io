@@ -34,18 +34,25 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={defaultTitle}
+      link = {[
+        { rel : 'canonical', href : 'https://eyar.github.io/web/'  }
+      ]}
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: 'Eyar Gilad CV',
         },
         {
           property: `og:title`,
-          content: title,
+          content: 'Eyar Gilad CV',
+        },
+        {
+          property: `og:url`,
+          content: 'https://eyar.github.io/web/',
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: 'Eyar Gilad CV',
         },
         {
           property: `og:type`,
@@ -53,7 +60,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `Eyar Gilad CV`,
         },
         {
           name: `twitter:creator`,
@@ -61,11 +68,11 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: 'Eyar Gilad CV',
         },
         {
           name: `twitter:description`,
-          content: metaDescription,
+          content: 'Eyar Gilad CV',
         },
       ].concat(meta)}
     />

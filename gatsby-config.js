@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Eyar Gilad CV`,
     description: ``,
-    author: `@gatsbyjs`,
+    author: `@eyari`,
   },
   plugins: [
     `gatsby-plugin-sass`,
