@@ -10,7 +10,7 @@ module.exports = {
       options: {
         trackingId: "UA-65572591-1"
       }
-    }
+    },
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-mdx`,
